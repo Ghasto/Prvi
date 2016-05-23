@@ -33,7 +33,7 @@
         jar="C:\Users\Nino\AndroidStudioProjects\FinanceApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="9cf31e29ea25e41c62ad5ec8c1cefd07408f1884">
+        sha1="84c0e3baa1e35126a5ae1e2942b58b9da19f1254">
         <dex dex="C:\Users\Nino\AndroidStudioProjects\FinanceApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b8fe7332293875e68109477d573f41be8f24aecc\classes.dex" />
     </item>
     <item
@@ -54,7 +54,7 @@
         jar="C:\Users\Nino\AndroidStudioProjects\FinanceApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="3ded88546a84af1ca1d830ba2967b4c32ce070a0">
+        sha1="cb067538d44aebd10702547cb0c311689bf4ec16">
         <dex dex="C:\Users\Nino\AndroidStudioProjects\FinanceApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_9d7574fa3a6f0a3a864611cff92be1a76a328dbe\classes.dex" />
     </item>
 

@@ -19,22 +19,9 @@ tools:context="com.example.nino.financeapp.FacebookActivity">
     android:layout_centerHorizontal="true"
     android:layout_marginTop="44dp" />
 
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:textAppearance="?android:attr/textAppearanceMedium"
-    android:text="Current: 120"
-    android:id="@+id/textView3"
-    android:layout_below="@+id/textView2"
-    android:layout_centerHorizontal="true"
-    android:layout_marginTop="99dp" />
-
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:textAppearance="?android:attr/textAppearanceMedium"
-    android:text="Up from last year: 26"
-    android:id="@+id/textView4"
-    android:layout_centerVertical="true"
-    android:layout_centerHorizontal="true" />
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView2" />
 </RelativeLayout>
