@@ -5,19 +5,22 @@ package com.example.nino.financeapp.model;
  */
 public class FinanceData {
 
-    private int id;
-    private double price;
+    private String symbol;
+    private Main main;
 
-    public int getId() {
-        return id;
+
+    public FinanceData(String symbol, float ask, float bid) {
+        this.symbol = symbol;
+        this.main = new Main(ask, bid);
+
     }
 
-    public double getPrice() {
-        return price;
+    public String getSymbol() {
+        return symbol;
     }
 
-    public FinanceData(int id, double price) {
-        this.id = id;
-        this.price = price;
+    public Main getMain() {
+        return main;
+        //tudi tukaj se mi ne zdi vse v redu
     }
 }

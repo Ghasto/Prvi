@@ -10,7 +10,7 @@ public class AlphabetActivity extends AppCompatActivity {
 
     private StockAdapter adapter;
 
-    public static final FinanceData[] APPLE_STOCKS = new FinanceData[] {
+    public static final FinanceData[] GOOGLE_STOCKS = new FinanceData[] {
             new FinanceData(3239318, 139.31),
             new FinanceData(3239318, 137.84),
             new FinanceData(3239318, 136.12),
@@ -22,7 +22,7 @@ public class AlphabetActivity extends AppCompatActivity {
         setContentView(R.layout.activity_alphabet);
 
         adapter = new StockAdapter(this);
-        adapter.setItems(APPLE_STOCKS);
+        adapter.setItems(GOOGLE_STOCKS);
 
         ListView listView = (ListView) findViewById(R.id.listView);
         listView.setAdapter(adapter);
