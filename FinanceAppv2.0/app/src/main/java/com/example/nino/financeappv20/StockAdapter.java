@@ -31,9 +31,9 @@ public class StockAdapter extends  BaseAdapter{
         return data[position];
     }
 
-    @Override
-    public long getItemId(int position) {
-        return position;
+    @Override //ne pusti da je ID String...
+    public String getItemSymbol(int position) {
+        return getItem(position).getSymbol();
     }
 
     @Override
